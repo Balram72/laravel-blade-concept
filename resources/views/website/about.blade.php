@@ -1,7 +1,20 @@
-@include('website.commenpages.header')
-    <section class="hero">
-            <h2>About Page</h2>
-
-     <p>&Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut repudiandae culpa praesentium doloremque illo qui iusto ea reiciendis dolor quibusdam dolorum debitis reprehenderit autem, facilis quam libero commodi nulla ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta non fuga nisi odit natus vel consequatur error. Iure, distinctio placeat dolorem suscipit quam facere cumque quidem quia quae debitis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem officia aperiam nam quidem, maxime ad? Corrupti, quaerat minus earum officia ducimus quos perferendis tenetur iusto ex distinctio nisi, maxime modi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dignissimos quam dicta id nam quibusdam at, in dolorem ut facilis fuga consequatur similique numquam fugit adipisci voluptas, voluptatibus magni neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur in quam, minima quasi repellat voluptate laudantium! Obcaecati placeat fugiat aut aspernatur quibusdam, sunt dolores magnam, impedit perspiciatis ea quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum exercitationem doloribus id eaque? Recusandae ipsam ut quos ex doloribus. Possimus eius libero animi quod cupiditate vel cumque minima praesentium itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus aperiam laborum labore et mollitia quia, ipsam cupiditate debitis ullam. Sint excepturi doloremque placeat officiis! Natus earum temporibus unde nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, voluptatibus id maiores, amet inventore perferendis minus aut, incidunt doloribus ex quaerat quam ipsum! Rem laboriosam modi recusandae, debitis ipsam repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellat quia debitis, accusantium possimus sed tempora suscipit quibusdam mollitia voluptates beatae. Quae aliquid voluptas dolores laborum nam? Eos, perferendis architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem animi non quos ipsa expedita in a hic nulla! Optio tempore sunt exercitationem facilis enim, doloribus ad magnam commodi fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-    </section>
-  @include('website.commenpages.footer')
+@extends('website.layout.masterlayout')
+{{-- @section('content')
+ <section class="hero">
+        <h2>About Page</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore odio pariatur corrupti odit delectus dignissimos autem tempore nisi, atque enim deserunt recusandae quos libero at sapiente quidem beatae qui!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+ </section>
+@endsection --}}
+@section('title')
+    About
+@endsection
