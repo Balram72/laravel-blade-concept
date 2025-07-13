@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BalramS - @yield('title','Website')</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+  @stack('csss')
 </head>
 <body>
 
@@ -46,6 +47,9 @@
       </div>
     </footer>
   </div>
+
+  {{-- Us the Javascript file --}}
+   @stack('scripts')
 
 </body>
 </html>

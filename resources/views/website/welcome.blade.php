@@ -1,4 +1,5 @@
  @extends('website.layout.masterlayout')
+
  @section('content')
  {{-- <section class="hero">
         <h2>Home Page</h2>
@@ -18,3 +19,26 @@
 @section('title')
     Home
 @endsection
+
+@push('scripts')
+  <script src="/exaple.js"></script>
+  <script src="/jquery.js"></script>
+  <script src="/bootstrap.js"></script>
+@endpush
+@push('scripts')
+  <script src="/vue.js"></script>
+@endpush
+
+@push('csss')
+  <link rel="stylesheet" href="/bootstrap.css">
+@endpush
+
+
+@prepend('csss')
+  <style>
+    .logo{
+        color:red;
+      }
+  </style>
+@endprepend
+
